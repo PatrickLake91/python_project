@@ -1,0 +1,5 @@
+services:
+  pythonapp:
+    build: .
+    container_name: pythonapp
+    command: python3 script1.py
